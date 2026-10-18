@@ -1,0 +1,12 @@
+{
+  "name": "辽宁大学 · 本科教务（占位）",
+  "schoolId": "lnu",
+  "group": "UNDERGRADUATE",
+  "initial": "L",
+  "family": "eams-urp",
+  "config": {
+    "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+  },
+  "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+  "maintainer": "暂无"
+}

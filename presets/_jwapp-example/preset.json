@@ -1,0 +1,13 @@
+{
+  "name": "示例高校 · 本科教务（金智 jwapp）",
+  "schoolId": "example-university",
+  "group": "UNDERGRADUATE",
+  "initial": "S",
+  "startUrl": "https://ehall.example.invalid/",
+  "family": "jwapp",
+  "config": {
+    "weeksEncoding": "auto"
+  },
+  "description": "示例：金智 jwapp 课表模块（cxxszhxqkb 子形）。换成 xskcb 或 kbapp 子形只改 scheduleAction 与行容器。",
+  "maintainer": "your-github-id"
+}

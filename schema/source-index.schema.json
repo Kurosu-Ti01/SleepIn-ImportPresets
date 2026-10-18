@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Kurosu-Ti01/SleepIn-ImportPresets/main/schema/source-index.schema.json",
+  "title": "SleepIn 本地组装方案源",
+  "type": "object",
+  "required": ["schemaVersion", "indexVersion", "runner", "families", "presets"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "indexVersion": { "type": "integer", "minimum": 1 },
+    "runner": { "$ref": "#/$defs/sourceFile" },
+    "families": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "metadata", "adapter"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "metadata": { "$ref": "#/$defs/sourceFile" },
+          "adapter": { "$ref": "#/$defs/sourceFile" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "schools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "name": { "type": "string", "minLength": 1 },
+          "code": { "type": "string", "minLength": 1 },
+          "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "presets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "group", "initial", "assembly", "description", "maintainer"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "name": { "type": "string", "minLength": 1 },
+          "schoolId": { "$ref": "#/$defs/id" },
+          "group": { "enum": ["UNDERGRADUATE", "POSTGRADUATE", "GENERAL"] },
+          "initial": { "type": "string", "pattern": "^[A-Z]$" },
+          "startUrl": { "type": "string", "pattern": "^https://" },
+          "assembly": { "enum": ["family", "override", "rewrite"] },
+          "family": { "$ref": "#/$defs/id" },
+          "config": { "type": "object" },
+          "override": { "$ref": "#/$defs/sourceFile" },
+          "rewrite": { "$ref": "#/$defs/sourceFile" },
+          "description": { "type": "string", "minLength": 1 },
+          "maintainer": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
+    "sourceFile": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^(?!/)(?!.*\\\\)(?!.*\\.\\.).+$" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

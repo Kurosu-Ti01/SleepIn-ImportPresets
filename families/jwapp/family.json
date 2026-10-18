@@ -1,0 +1,46 @@
+{
+  "name": "金智 jwapp（课表模块的 JSON 接口，含 wdkb / kbapp 子形）",
+  "apiVersion": 1,
+  "changePoints": {
+    "semesterListAction": "/jwapp/sys/wdkb/modules/jshkcb/xnxqcx.do",
+    "currentSemesterAction": "/jwapp/sys/wdkb/modules/jshkcb/dqxnxq.do",
+    "semesterMetaAction": "/jwapp/sys/wdkb/modules/jshkcb/cxjcs.do",
+    "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/cxxszhxqkb.do",
+    "changeAction": "/jwapp/sys/wdkb/modules/xskcb/xsdkkc.do",
+    "sectionTimesAction": "/jwapp/sys/wdkb/modules/jshkcb/jc.do",
+    "semesterListBody": "*order=-DM",
+    "scheduleParam": "XNXQDM",
+    "scheduleWeekParam": "",
+    "semesterSplit": { "year": "XN", "term": "XQ" },
+    "semesterField": "DM",
+    "semesterLabelField": "MC",
+    "rowContainer": { "path": "datas.*.rows" },
+    "sectionTimesContainer": { "path": "datas.*.rows" },
+    "weeksEncoding": "auto",
+    "assumedTotalWeeks": 16,
+    "groupKeyOrder": ["classId"],
+    "fields": {
+      "name": "KCM",
+      "teacher": "SKJS",
+      "day": "SKXQ",
+      "from": "KSJC",
+      "to": "JSJC",
+      "weeks": "SKZC",
+      "location": "JASMC",
+      "classId": "KBID"
+    },
+    "changeFields": {
+      "name": "XKCM",
+      "teacher": "XSKJS",
+      "day": "XSKXQ",
+      "from": "XKSJC",
+      "to": "XJSJC",
+      "weeks": "XSKZC",
+      "location": "XJASMC",
+      "classId": "KBID"
+    },
+    "changeTypeField": "TKLXDM",
+    "changeAddTypes": ["01", "03"],
+    "sectionTimeFields": { "period": "JC", "start": "QSSJ", "end": "JSSJ" }
+  }
+}

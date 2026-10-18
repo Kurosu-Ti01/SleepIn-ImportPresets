@@ -1,0 +1,24 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # source-index.json 是唯一的发布物：它记录族文件与组装声明的哈希。
+      # 改了 adapter.js 或 family.json 而忘了重新生成时在这里失败；
+      # config 里写错变化点名字也在这里被拦下。
+      - name: Check the source index is up to date
+        shell: pwsh
+        run: ./tools/Build-SourceIndex.ps1 -Check
+
+      # 单元测试：共享运行流程（周次、节次、载荷）与探测脚本（脱敏规则与浏览器分支）。
+      # 单双周标记被丢掉这类错误不会报错，只会产出错课表，只能靠测试挡住。
+      - name: Run unit tests
+        shell: pwsh
+        run: node --test

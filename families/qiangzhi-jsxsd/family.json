@@ -1,0 +1,24 @@
+{
+  "name": "强智 jsxsd（课表页的 HTML 表格）",
+  "apiVersion": 1,
+  "changePoints": {
+    "scheduleAction": "/jsxsd/xskb/xskb_list.do",
+    "semesterParam": "xnxq01id",
+    "semesterSelectSelectors": ["#xnxq01id", "select[name='xnxq01id']", "select#xnxq01id"],
+    "semesterYears": 4,
+    "assumedTotalWeeks": 20,
+    "tableSelectors": ["#timetable", "#kbtable", "table.kbtable", "table#kbtable", "div#kbtable table"],
+    "cellSelectors": [".kbcontent", ".kbcontent1", "td"],
+    "headerRowSectionSelectors": [".kbcontent1", "td:first-child", "th:first-child"],
+    "blockSplitter": "-----",
+    "fieldTitles": {
+      "teacher": ["老师", "教师"],
+      "location": ["教室"],
+      "weekSection": ["周次(节次)", "周次（节次）", "周次节次"]
+    },
+    "sectionPattern": "\\[(\\d+)\\s*(?:-\\s*(\\d+))?\\s*节\\]",
+    "dayColumnOffset": 1,
+    "mergeAdjacentSections": true,
+    "sectionTimesFromTableHeader": true
+  }
+}

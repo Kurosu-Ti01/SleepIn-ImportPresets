@@ -1,0 +1,13 @@
+{
+  "name": "示例高校 · 本科教务（正方 v9）",
+  "schoolId": "example-university",
+  "group": "UNDERGRADUATE",
+  "initial": "S",
+  "startUrl": "https://jw.example.invalid/",
+  "family": "zhengfang-v9",
+  "config": {
+    "assumedTotalWeeks": 18
+  },
+  "description": "示例：正方 v9 的课表查询 JSON 接口。默认取值已可用，这里只覆盖总周数——该族不报告总周数，所以每校按自己的学期长度声明一次。",
+  "maintainer": "your-github-id"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "通用抓取（当前页面上的课表表格）",
+  "apiVersion": 1,
+  "changePoints": {
+    "tableSelectors": [
+      "#timetable",
+      "#kbtable",
+      "table.kbtable",
+      "table[id*='kb' i]",
+      "table[id*='table' i]",
+      "table[class*='kb' i]",
+      "table[class*='table' i]",
+      "table"
+    ],
+    "headerRowSectionSelectors": ["td:first-child", "th:first-child"],
+    "blockSplitter": "-----",
+    "fieldTitles": {
+      "teacher": ["老师", "教师", "授课教师"],
+      "location": ["教室", "上课地点", "地点"],
+      "weekSection": ["周次(节次)", "周次（节次）", "时间地点", "周次节次"]
+    },
+    "sectionPattern": "\\[(\\d+)\\s*(?:-\\s*(\\d+))?\\s*节\\]",
+    "dayColumnOffset": 1,
+    "dayCount": 7,
+    "assumedTotalWeeks": 20,
+    "semesterYears": 4,
+    "sectionTimesFromTableHeader": true,
+    "mergeAdjacentSections": true
+  }
+}

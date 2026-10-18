@@ -1,0 +1,13 @@
+{
+  "name": "示例高校 · 本科教务（超星）",
+  "schoolId": "example-university",
+  "group": "UNDERGRADUATE",
+  "initial": "S",
+  "startUrl": "https://jw.example.invalid/",
+  "family": "chaoxing-jw",
+  "config": {
+    "assumedTotalWeeks": 18
+  },
+  "description": "示例：超星教务。该族最不确定：课表接口路径、页面元素选择器几乎肯定要按实测结果改。",
+  "maintainer": "your-github-id"
+}

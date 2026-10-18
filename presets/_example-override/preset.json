@@ -1,0 +1,15 @@
+{
+  "name": "示例高校 · 研究生教务",
+  "schoolId": "example-university",
+  "group": "POSTGRADUATE",
+  "initial": "S",
+  "startUrl": "https://portal.example.invalid/portal/",
+  "family": "example-portal",
+  "config": {
+    "scheduleAction": "schedule/graduate",
+    "weeksEncoding": "range",
+    "semesterFields": { "code": "xnxq", "label": "mc" }
+  },
+  "description": "示例：族装不下的那一处差异用 override.js 覆盖（该部署一行返回两门课）。",
+  "maintainer": "your-github-id"
+}

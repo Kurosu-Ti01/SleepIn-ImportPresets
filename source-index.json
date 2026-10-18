@@ -1,0 +1,3016 @@
+{
+  "schemaVersion": 2,
+  "indexVersion": 22,
+  "runner": {
+    "path": "lib/runner.js",
+    "sha256": "cba0212f03a70f3ab5c1be9da7228f2a27c253822ff941e178d7750bbac20072"
+  },
+  "families": [
+    {
+      "id": "chaoxing-jw",
+      "metadata": {
+        "path": "families/chaoxing-jw/family.json",
+        "sha256": "ae6687f02c4114a96a793a0b813b0ed31dc5cb3514f593665eaa668a81012ee9"
+      },
+      "adapter": {
+        "path": "families/chaoxing-jw/adapter.js",
+        "sha256": "4734189ad8f1c06f541ceb303033d2baca7bbb2ffd52ced2734aac67b1b0f067"
+      }
+    },
+    {
+      "id": "eams-urp",
+      "metadata": {
+        "path": "families/eams-urp/family.json",
+        "sha256": "0bf7c1b8fab00a9f4e9ec83332424d2aff449cdc7fea2141ce927303797defc0"
+      },
+      "adapter": {
+        "path": "families/eams-urp/adapter.js",
+        "sha256": "baa218f4544834bd7f390ef18f70bfece190a68f9dac5b6051822410007bc99d"
+      }
+    },
+    {
+      "id": "example-portal",
+      "metadata": {
+        "path": "families/example-portal/family.json",
+        "sha256": "96174965cdcd43a3f39aa81542cc266ed3673b505faf56d466491e7e316fcf96"
+      },
+      "adapter": {
+        "path": "families/example-portal/adapter.js",
+        "sha256": "1bc98fc64344d643983b866c2de9bdf9bec2e87c42504c129751aca7966f3614"
+      }
+    },
+    {
+      "id": "generic-table",
+      "metadata": {
+        "path": "families/generic-table/family.json",
+        "sha256": "c360d92e566f76a52e2ad75082b4b6da98fa33d16a5541d9fb4ed789e0970309"
+      },
+      "adapter": {
+        "path": "families/generic-table/adapter.js",
+        "sha256": "608cc9e0896b2fd86534f29425d246dff951282ede2c9c2f5c3535166007383c"
+      }
+    },
+    {
+      "id": "jwapp",
+      "metadata": {
+        "path": "families/jwapp/family.json",
+        "sha256": "2bf02ff4ce66c34a518df8b137965d30c39fdd61215af279a7f59835c4f01b78"
+      },
+      "adapter": {
+        "path": "families/jwapp/adapter.js",
+        "sha256": "6224f1ae2455cc3294ec5a282e21d693ab096c0fed2c03fe6a5adde352f2d63c"
+      }
+    },
+    {
+      "id": "qiangzhi-jsxsd",
+      "metadata": {
+        "path": "families/qiangzhi-jsxsd/family.json",
+        "sha256": "f9c3dbfa45c2dbe83d4d09747e014613e9c1ade35e12c2da396f1bccbbedfbfc"
+      },
+      "adapter": {
+        "path": "families/qiangzhi-jsxsd/adapter.js",
+        "sha256": "c6bbf415de53cb6e2ba1c8083ad62eb2fbc02cc4ef40c3d99d1111cb0bb1de1b"
+      }
+    },
+    {
+      "id": "zhengfang-v9",
+      "metadata": {
+        "path": "families/zhengfang-v9/family.json",
+        "sha256": "93213233d034f8247fa33cf72e11bbc4ddeb014eafdaadb1b64b48de9d65a732"
+      },
+      "adapter": {
+        "path": "families/zhengfang-v9/adapter.js",
+        "sha256": "ca7336c10c0f01c15d55be712fa520d303355c97cbc20b5d32a3b07e40c3688c"
+      }
+    }
+  ],
+  "schools": [
+    {
+      "id": "ahu",
+      "name": "安徽大学",
+      "aliases": [
+        "安大",
+        "Anhui University",
+        "AHU"
+      ]
+    },
+    {
+      "id": "bfsu",
+      "name": "北京外国语大学",
+      "aliases": [
+        "北外",
+        "Beijing Foreign Studies University",
+        "BFSU"
+      ]
+    },
+    {
+      "id": "bit",
+      "name": "北京理工大学",
+      "aliases": [
+        "北理工",
+        "Beijing Institute of Technology",
+        "BIT"
+      ]
+    },
+    {
+      "id": "bjfu",
+      "name": "北京林业大学",
+      "aliases": [
+        "北林",
+        "Beijing Forestry University",
+        "BJFU"
+      ]
+    },
+    {
+      "id": "bjtu",
+      "name": "北京交通大学",
+      "aliases": [
+        "北交大",
+        "Beijing Jiaotong University",
+        "BJTU"
+      ]
+    },
+    {
+      "id": "bjut",
+      "name": "北京工业大学",
+      "aliases": [
+        "北工大",
+        "Beijing University of Technology",
+        "BJUT"
+      ]
+    },
+    {
+      "id": "bnu",
+      "name": "北京师范大学",
+      "aliases": [
+        "北师大",
+        "Beijing Normal University",
+        "BNU"
+      ]
+    },
+    {
+      "id": "bsu",
+      "name": "北京体育大学",
+      "aliases": [
+        "北体",
+        "Beijing Sport University",
+        "BSU"
+      ]
+    },
+    {
+      "id": "buaa",
+      "name": "北京航空航天大学",
+      "aliases": [
+        "北航",
+        "Beihang University",
+        "BUAA"
+      ]
+    },
+    {
+      "id": "bucm",
+      "name": "北京中医药大学",
+      "aliases": [
+        "北中医",
+        "Beijing University of Chinese Medicine",
+        "BUCM"
+      ]
+    },
+    {
+      "id": "buct",
+      "name": "北京化工大学",
+      "aliases": [
+        "北化",
+        "Beijing University of Chemical Technology",
+        "BUCT"
+      ]
+    },
+    {
+      "id": "bupt",
+      "name": "北京邮电大学",
+      "aliases": [
+        "北邮",
+        "Beijing University of Posts and Telecommunications",
+        "BUPT"
+      ]
+    },
+    {
+      "id": "cau",
+      "name": "中国农业大学",
+      "aliases": [
+        "中国农大",
+        "China Agricultural University",
+        "CAU"
+      ]
+    },
+    {
+      "id": "ccnu",
+      "name": "华中师范大学",
+      "aliases": [
+        "华中师大",
+        "Central China Normal University",
+        "CCNU"
+      ]
+    },
+    {
+      "id": "ccom",
+      "name": "中央音乐学院",
+      "aliases": [
+        "央音",
+        "Central Conservatory of Music",
+        "CCOM"
+      ]
+    },
+    {
+      "id": "chd",
+      "name": "长安大学",
+      "aliases": [
+        "长大",
+        "Chang'an University",
+        "CHD"
+      ]
+    },
+    {
+      "id": "cpu",
+      "name": "中国药科大学",
+      "aliases": [
+        "药大",
+        "China Pharmaceutical University",
+        "CPU"
+      ]
+    },
+    {
+      "id": "cqu",
+      "name": "重庆大学",
+      "aliases": [
+        "重大",
+        "Chongqing University",
+        "CQU"
+      ]
+    },
+    {
+      "id": "csu",
+      "name": "中南大学",
+      "aliases": [
+        "中南",
+        "Central South University",
+        "CSU"
+      ]
+    },
+    {
+      "id": "cuc",
+      "name": "中国传媒大学",
+      "aliases": [
+        "中传",
+        "Communication University of China",
+        "CUC"
+      ]
+    },
+    {
+      "id": "cufe",
+      "name": "中央财经大学",
+      "aliases": [
+        "央财",
+        "Central University of Finance and Economics",
+        "CUFE"
+      ]
+    },
+    {
+      "id": "cug",
+      "name": "中国地质大学（武汉）",
+      "aliases": [
+        "地大",
+        "China University of Geosciences, Wuhan",
+        "CUG"
+      ]
+    },
+    {
+      "id": "cug-beijing",
+      "name": "中国地质大学（北京）",
+      "aliases": [
+        "地大北京",
+        "China University of Geosciences, Beijing",
+        "CUGB"
+      ]
+    },
+    {
+      "id": "cumt",
+      "name": "中国矿业大学",
+      "aliases": [
+        "矿大",
+        "China University of Mining and Technology",
+        "CUMT"
+      ]
+    },
+    {
+      "id": "cumtb",
+      "name": "中国矿业大学（北京）",
+      "aliases": [
+        "矿大北京",
+        "China University of Mining and Technology, Beijing",
+        "CUMTB"
+      ]
+    },
+    {
+      "id": "cup-beijing",
+      "name": "中国石油大学（北京）",
+      "aliases": [
+        "石大北京",
+        "China University of Petroleum, Beijing",
+        "CUP"
+      ]
+    },
+    {
+      "id": "cupl",
+      "name": "中国政法大学",
+      "aliases": [
+        "法大",
+        "China University of Political Science and Law",
+        "CUPL"
+      ]
+    },
+    {
+      "id": "dhu",
+      "name": "东华大学",
+      "aliases": [
+        "东华",
+        "Donghua University",
+        "DHU"
+      ]
+    },
+    {
+      "id": "dlmu",
+      "name": "大连海事大学",
+      "aliases": [
+        "海大",
+        "Dalian Maritime University",
+        "DLMU"
+      ]
+    },
+    {
+      "id": "dlut",
+      "name": "大连理工大学",
+      "aliases": [
+        "大工",
+        "Dalian University of Technology",
+        "DLUT"
+      ]
+    },
+    {
+      "id": "ecnu",
+      "name": "华东师范大学",
+      "aliases": [
+        "华师大",
+        "East China Normal University",
+        "ECNU"
+      ]
+    },
+    {
+      "id": "ecust",
+      "name": "华东理工大学",
+      "aliases": [
+        "华理",
+        "East China University of Science and Technology",
+        "ECUST"
+      ]
+    },
+    {
+      "id": "fmmu",
+      "name": "空军军医大学",
+      "aliases": [
+        "第四军医大学",
+        "空军军医大",
+        "Air Force Medical University",
+        "FMMU"
+      ]
+    },
+    {
+      "id": "fudan",
+      "name": "复旦大学",
+      "aliases": [
+        "复旦",
+        "Fudan University"
+      ]
+    },
+    {
+      "id": "fzu",
+      "name": "福州大学",
+      "aliases": [
+        "福大",
+        "Fuzhou University",
+        "FZU"
+      ]
+    },
+    {
+      "id": "gxu",
+      "name": "广西大学",
+      "aliases": [
+        "西大",
+        "Guangxi University",
+        "GXU"
+      ]
+    },
+    {
+      "id": "gzu",
+      "name": "贵州大学",
+      "aliases": [
+        "贵大",
+        "Guizhou University",
+        "GZU"
+      ]
+    },
+    {
+      "id": "hainanu",
+      "name": "海南大学",
+      "aliases": [
+        "海大",
+        "Hainan University"
+      ]
+    },
+    {
+      "id": "hebut",
+      "name": "河北工业大学",
+      "aliases": [
+        "河工大",
+        "Hebei University of Technology",
+        "HEBUT"
+      ]
+    },
+    {
+      "id": "hfut",
+      "name": "合肥工业大学",
+      "aliases": [
+        "合工大",
+        "Hefei University of Technology",
+        "HFUT"
+      ]
+    },
+    {
+      "id": "hhu",
+      "name": "河海大学",
+      "aliases": [
+        "河海",
+        "Hohai University",
+        "HHU"
+      ]
+    },
+    {
+      "id": "hit",
+      "name": "哈尔滨工业大学",
+      "aliases": [
+        "哈工大",
+        "Harbin Institute of Technology",
+        "HIT"
+      ]
+    },
+    {
+      "id": "hnu",
+      "name": "湖南大学",
+      "aliases": [
+        "湖大",
+        "Hunan University",
+        "HNU"
+      ]
+    },
+    {
+      "id": "hrbeu",
+      "name": "哈尔滨工程大学",
+      "aliases": [
+        "哈工程",
+        "Harbin Engineering University",
+        "HRBEU"
+      ]
+    },
+    {
+      "id": "hunnu",
+      "name": "湖南师范大学",
+      "aliases": [
+        "湖南师大",
+        "Hunan Normal University",
+        "HUNNU"
+      ]
+    },
+    {
+      "id": "hust",
+      "name": "华中科技大学",
+      "aliases": [
+        "华科",
+        "Huazhong University of Science and Technology",
+        "HUST"
+      ]
+    },
+    {
+      "id": "hzau",
+      "name": "华中农业大学",
+      "aliases": [
+        "华农",
+        "Huazhong Agricultural University",
+        "HZAU"
+      ]
+    },
+    {
+      "id": "imu",
+      "name": "内蒙古大学",
+      "aliases": [
+        "内大",
+        "Inner Mongolia University",
+        "IMU"
+      ]
+    },
+    {
+      "id": "jiangnan",
+      "name": "江南大学",
+      "aliases": [
+        "江大",
+        "Jiangnan University"
+      ]
+    },
+    {
+      "id": "jlu",
+      "name": "吉林大学",
+      "aliases": [
+        "吉大",
+        "Jilin University",
+        "JLU"
+      ]
+    },
+    {
+      "id": "jnu",
+      "name": "暨南大学",
+      "aliases": [
+        "暨大",
+        "Jinan University",
+        "JNU"
+      ]
+    },
+    {
+      "id": "lnu",
+      "name": "辽宁大学",
+      "aliases": [
+        "辽大",
+        "Liaoning University",
+        "LNU"
+      ]
+    },
+    {
+      "id": "lzu",
+      "name": "兰州大学",
+      "aliases": [
+        "兰大",
+        "Lanzhou University",
+        "LZU"
+      ]
+    },
+    {
+      "id": "muc",
+      "name": "中央民族大学",
+      "aliases": [
+        "中央民大",
+        "Minzu University of China",
+        "MUC"
+      ]
+    },
+    {
+      "id": "nankai",
+      "name": "南开大学",
+      "aliases": [
+        "南开",
+        "Nankai University",
+        "NKU"
+      ]
+    },
+    {
+      "id": "ncepu",
+      "name": "华北电力大学",
+      "aliases": [
+        "华电",
+        "North China Electric Power University",
+        "NCEPU"
+      ]
+    },
+    {
+      "id": "ncepu-baoding",
+      "name": "华北电力大学（保定）",
+      "aliases": [
+        "华电保定",
+        "North China Electric Power University, Baoding"
+      ]
+    },
+    {
+      "id": "ncu",
+      "name": "南昌大学",
+      "aliases": [
+        "昌大",
+        "Nanchang University",
+        "NCU"
+      ]
+    },
+    {
+      "id": "neau",
+      "name": "东北农业大学",
+      "aliases": [
+        "东农",
+        "Northeast Agricultural University",
+        "NEAU"
+      ]
+    },
+    {
+      "id": "nefu",
+      "name": "东北林业大学",
+      "aliases": [
+        "东北林大",
+        "Northeast Forestry University",
+        "NEFU"
+      ]
+    },
+    {
+      "id": "nenu",
+      "name": "东北师范大学",
+      "aliases": [
+        "东北师大",
+        "Northeast Normal University",
+        "NENU"
+      ]
+    },
+    {
+      "id": "neu",
+      "name": "东北大学",
+      "aliases": [
+        "东大",
+        "Northeastern University",
+        "NEU"
+      ]
+    },
+    {
+      "id": "njau",
+      "name": "南京农业大学",
+      "aliases": [
+        "南农",
+        "Nanjing Agricultural University",
+        "NJAU"
+      ]
+    },
+    {
+      "id": "njnu",
+      "name": "南京师范大学",
+      "aliases": [
+        "南师大",
+        "Nanjing Normal University",
+        "NJNU"
+      ]
+    },
+    {
+      "id": "nju",
+      "name": "南京大学",
+      "aliases": [
+        "南大",
+        "Nanjing University",
+        "NJU"
+      ]
+    },
+    {
+      "id": "njust",
+      "name": "南京理工大学",
+      "aliases": [
+        "南理工",
+        "Nanjing University of Science and Technology",
+        "NJUST"
+      ]
+    },
+    {
+      "id": "nuaa",
+      "name": "南京航空航天大学",
+      "aliases": [
+        "南航",
+        "Nanjing University of Aeronautics and Astronautics",
+        "NUAA"
+      ]
+    },
+    {
+      "id": "nudt",
+      "name": "国防科技大学",
+      "aliases": [
+        "国防科大",
+        "National University of Defense Technology",
+        "NUDT"
+      ]
+    },
+    {
+      "id": "nwafu",
+      "name": "西北农林科技大学",
+      "aliases": [
+        "西农",
+        "Northwest A&F University",
+        "NWAFU"
+      ]
+    },
+    {
+      "id": "nwpu",
+      "name": "西北工业大学",
+      "aliases": [
+        "西工大",
+        "Northwestern Polytechnical University",
+        "NWPU"
+      ]
+    },
+    {
+      "id": "nwu",
+      "name": "西北大学",
+      "aliases": [
+        "西大",
+        "NWU",
+        "Northwest University"
+      ]
+    },
+    {
+      "id": "nxu",
+      "name": "宁夏大学",
+      "aliases": [
+        "宁大",
+        "Ningxia University",
+        "NXU"
+      ]
+    },
+    {
+      "id": "ouc",
+      "name": "中国海洋大学",
+      "aliases": [
+        "海大",
+        "Ocean University of China",
+        "OUC"
+      ]
+    },
+    {
+      "id": "pku",
+      "name": "北京大学",
+      "aliases": [
+        "北大",
+        "Peking University",
+        "PKU"
+      ]
+    },
+    {
+      "id": "qhu",
+      "name": "青海大学",
+      "aliases": [
+        "青大",
+        "Qinghai University",
+        "QHU"
+      ]
+    },
+    {
+      "id": "ruc",
+      "name": "中国人民大学",
+      "aliases": [
+        "人大",
+        "Renmin University of China",
+        "RUC"
+      ]
+    },
+    {
+      "id": "scnu",
+      "name": "华南师范大学",
+      "aliases": [
+        "华南师大",
+        "South China Normal University",
+        "SCNU"
+      ]
+    },
+    {
+      "id": "scu",
+      "name": "四川大学",
+      "aliases": [
+        "川大",
+        "Sichuan University",
+        "SCU"
+      ]
+    },
+    {
+      "id": "scut",
+      "name": "华南理工大学",
+      "aliases": [
+        "华工",
+        "South China University of Technology",
+        "SCUT"
+      ]
+    },
+    {
+      "id": "sdu",
+      "name": "山东大学",
+      "aliases": [
+        "山大",
+        "Shandong University",
+        "SDU"
+      ]
+    },
+    {
+      "id": "seu",
+      "name": "东南大学",
+      "aliases": [
+        "东大",
+        "Southeast University",
+        "SEU"
+      ]
+    },
+    {
+      "id": "shisu",
+      "name": "上海外国语大学",
+      "aliases": [
+        "上外",
+        "Shanghai International Studies University",
+        "SISU"
+      ]
+    },
+    {
+      "id": "shu",
+      "name": "上海大学",
+      "aliases": [
+        "上大",
+        "Shanghai University",
+        "SHU"
+      ]
+    },
+    {
+      "id": "shzu",
+      "name": "石河子大学",
+      "aliases": [
+        "石大",
+        "Shihezi University",
+        "SHZU"
+      ]
+    },
+    {
+      "id": "sicau",
+      "name": "四川农业大学",
+      "aliases": [
+        "川农",
+        "Sichuan Agricultural University",
+        "SICAU"
+      ]
+    },
+    {
+      "id": "sjtu",
+      "name": "上海交通大学",
+      "aliases": [
+        "上交",
+        "Shanghai Jiao Tong University",
+        "SJTU"
+      ]
+    },
+    {
+      "id": "smmu",
+      "name": "海军军医大学",
+      "aliases": [
+        "第二军医大学",
+        "海军军医大",
+        "Naval Medical University",
+        "SMMU"
+      ]
+    },
+    {
+      "id": "snnu",
+      "name": "陕西师范大学",
+      "aliases": [
+        "陕师大",
+        "Shaanxi Normal University",
+        "SNNU"
+      ]
+    },
+    {
+      "id": "suda",
+      "name": "苏州大学",
+      "aliases": [
+        "苏大",
+        "Soochow University",
+        "SUDA"
+      ]
+    },
+    {
+      "id": "sufe",
+      "name": "上海财经大学",
+      "aliases": [
+        "上财",
+        "Shanghai University of Finance and Economics",
+        "SUFE"
+      ]
+    },
+    {
+      "id": "swjtu",
+      "name": "西南交通大学",
+      "aliases": [
+        "西南交大",
+        "Southwest Jiaotong University",
+        "SWJTU"
+      ]
+    },
+    {
+      "id": "swu",
+      "name": "西南大学",
+      "aliases": [
+        "西大",
+        "Southwest University",
+        "SWU"
+      ]
+    },
+    {
+      "id": "swufe",
+      "name": "西南财经大学",
+      "aliases": [
+        "西财",
+        "Southwestern University of Finance and Economics",
+        "SWUFE"
+      ]
+    },
+    {
+      "id": "sysu",
+      "name": "中山大学",
+      "aliases": [
+        "中大",
+        "Sun Yat-sen University",
+        "SYSU"
+      ]
+    },
+    {
+      "id": "thu",
+      "name": "清华大学",
+      "aliases": [
+        "清华",
+        "Tsinghua University",
+        "THU"
+      ]
+    },
+    {
+      "id": "tju",
+      "name": "天津大学",
+      "aliases": [
+        "天大",
+        "Tianjin University",
+        "TJU"
+      ]
+    },
+    {
+      "id": "tmu",
+      "name": "天津医科大学",
+      "aliases": [
+        "天医大",
+        "Tianjin Medical University",
+        "TMU"
+      ]
+    },
+    {
+      "id": "tongji",
+      "name": "同济大学",
+      "aliases": [
+        "同济",
+        "Tongji University"
+      ]
+    },
+    {
+      "id": "tyut",
+      "name": "太原理工大学",
+      "aliases": [
+        "太原理工",
+        "Taiyuan University of Technology",
+        "TYUT"
+      ]
+    },
+    {
+      "id": "uestc",
+      "name": "电子科技大学",
+      "aliases": [
+        "成电",
+        "University of Electronic Science and Technology of China",
+        "UESTC"
+      ]
+    },
+    {
+      "id": "uibe",
+      "name": "对外经济贸易大学",
+      "aliases": [
+        "贸大",
+        "University of International Business and Economics",
+        "UIBE"
+      ]
+    },
+    {
+      "id": "upc",
+      "name": "中国石油大学（华东）",
+      "aliases": [
+        "石大",
+        "China University of Petroleum, East China",
+        "UPC"
+      ]
+    },
+    {
+      "id": "ustb",
+      "name": "北京科技大学",
+      "aliases": [
+        "北科大",
+        "University of Science and Technology Beijing",
+        "USTB"
+      ]
+    },
+    {
+      "id": "ustc",
+      "name": "中国科学技术大学",
+      "aliases": [
+        "中科大",
+        "University of Science and Technology of China",
+        "USTC"
+      ]
+    },
+    {
+      "id": "utibet",
+      "name": "西藏大学",
+      "aliases": [
+        "藏大",
+        "Tibet University"
+      ]
+    },
+    {
+      "id": "whu",
+      "name": "武汉大学",
+      "aliases": [
+        "武大",
+        "Wuhan University",
+        "WHU"
+      ]
+    },
+    {
+      "id": "whut",
+      "name": "武汉理工大学",
+      "aliases": [
+        "武理工",
+        "Wuhan University of Technology",
+        "WHUT"
+      ]
+    },
+    {
+      "id": "xidian",
+      "name": "西安电子科技大学",
+      "aliases": [
+        "西电",
+        "Xidian University",
+        "XDU"
+      ]
+    },
+    {
+      "id": "xjtu",
+      "name": "西安交通大学",
+      "aliases": [
+        "西交",
+        "Xi'an Jiaotong University",
+        "XJTU"
+      ]
+    },
+    {
+      "id": "xju",
+      "name": "新疆大学",
+      "aliases": [
+        "新大",
+        "Xinjiang University",
+        "XJU"
+      ]
+    },
+    {
+      "id": "xmu",
+      "name": "厦门大学",
+      "aliases": [
+        "厦大",
+        "Xiamen University",
+        "XMU"
+      ]
+    },
+    {
+      "id": "ybu",
+      "name": "延边大学",
+      "aliases": [
+        "延大",
+        "Yanbian University",
+        "YBU"
+      ]
+    },
+    {
+      "id": "ynu",
+      "name": "云南大学",
+      "aliases": [
+        "云大",
+        "Yunnan University",
+        "YNU"
+      ]
+    },
+    {
+      "id": "zju",
+      "name": "浙江大学",
+      "aliases": [
+        "浙大",
+        "Zhejiang University",
+        "ZJU"
+      ]
+    },
+    {
+      "id": "zuel",
+      "name": "中南财经政法大学",
+      "aliases": [
+        "中南大",
+        "Zhongnan University of Economics and Law",
+        "ZUEL"
+      ]
+    },
+    {
+      "id": "zzu",
+      "name": "郑州大学",
+      "aliases": [
+        "郑大",
+        "Zhengzhou University",
+        "ZZU"
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "id": "ahu-undergraduate",
+      "name": "安徽大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "A",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ahu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "bfsu-undergraduate",
+      "name": "北京外国语大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bfsu",
+      "startUrl": "https://jwxt.bfsu.edu.cn/jwglxt/xtgl/login_slogin.html",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "bit-undergraduate",
+      "name": "北京理工大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bit",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xsllsykb.do",
+        "scheduleWeekParam": "SKZC",
+        "weeksEncoding": "bitmap"
+      }
+    },
+    {
+      "id": "bjfu-undergraduate",
+      "name": "北京林业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bjfu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "bjtu-undergraduate",
+      "name": "北京交通大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bjtu",
+      "startUrl": "https://bksy.bjtu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "bjut-undergraduate",
+      "name": "北京工业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bjut",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "bnu-undergraduate",
+      "name": "北京师范大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bnu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "bsu-undergraduate",
+      "name": "北京体育大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bsu",
+      "startUrl": "https://jw.bsu.edu.cn/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "buaa-undergraduate",
+      "name": "北京航空航天大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "buaa",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "bucm-undergraduate",
+      "name": "北京中医药大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bucm",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "buct-undergraduate",
+      "name": "北京化工大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "buct",
+      "startUrl": "https://jwglxt.buct.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "bupt-undergraduate",
+      "name": "北京邮电大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "bupt",
+      "startUrl": "https://jwgl.bupt.edu.cn/jsxsd/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "cau-undergraduate",
+      "name": "中国农业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cau",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "ccnu-undergraduate",
+      "name": "华中师范大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ccnu",
+      "startUrl": "https://one.ccnu.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "ccom-undergraduate",
+      "name": "中央音乐学院 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ccom",
+      "startUrl": "https://bkjw.ccom.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action",
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "chd-undergraduate",
+      "name": "长安大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "C",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "chd",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "cpu-undergraduate",
+      "name": "中国药科大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cpu",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "cqu-undergraduate",
+      "name": "重庆大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "C",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cqu",
+      "startUrl": "https://my.cqu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "csu-undergraduate",
+      "name": "中南大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "csu",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "cuc-undergraduate",
+      "name": "中国传媒大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cuc",
+      "startUrl": "https://bkjw.cuc.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xskcb.do"
+      }
+    },
+    {
+      "id": "cufe-undergraduate",
+      "name": "中央财经大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cufe",
+      "startUrl": "https://xuanke.cufe.edu.cn/jwglxt/xtgl/login_slogin.html",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "cug-beijing-undergraduate",
+      "name": "中国地质大学（北京） · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cug-beijing",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "cug-undergraduate",
+      "name": "中国地质大学（武汉） · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cug",
+      "startUrl": "https://i.cug.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "cumt-undergraduate",
+      "name": "中国矿业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cumt",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "cumtb-undergraduate",
+      "name": "中国矿业大学（北京） · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cumtb",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "cup-beijing-undergraduate",
+      "name": "中国石油大学（北京） · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cup-beijing",
+      "startUrl": "https://bk.cup.edu.cn/student/",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action",
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "cupl-undergraduate",
+      "name": "中国政法大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "cupl",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+      }
+    },
+    {
+      "id": "dhu-undergraduate",
+      "name": "东华大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "dhu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "dlmu-undergraduate",
+      "name": "大连海事大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "dlmu",
+      "startUrl": "https://jw.xpaas.dlmu.edu.cn/eams",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action",
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "dlut-undergraduate",
+      "name": "大连理工大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "dlut",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+      }
+    },
+    {
+      "id": "ecnu-undergraduate",
+      "name": "华东师范大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ecnu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "ecust-undergraduate",
+      "name": "华东理工大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ecust",
+      "startUrl": "https://inquiry.ecust.edu.cn/jsxsd/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "fmmu-undergraduate",
+      "name": "空军军医大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "K",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "fmmu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "fudan-undergraduate",
+      "name": "复旦大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "F",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "fudan",
+      "startUrl": "https://xk.fudan.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "fzu-undergraduate",
+      "name": "福州大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "F",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "fzu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "gxu-undergraduate",
+      "name": "广西大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "G",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "gxu",
+      "startUrl": "https://jwxt2018.gxu.edu.cn/jwglxt/xtgl/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "gzu-undergraduate",
+      "name": "贵州大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "G",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "gzu",
+      "startUrl": "https://zhjw.gzu.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "hainanu-undergraduate",
+      "name": "海南大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hainanu",
+      "startUrl": "https://jxgl.hainanu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "hebut-undergraduate",
+      "name": "河北工业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hebut",
+      "startUrl": "https://webvpn.hebut.edu.cn/portal/",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+      }
+    },
+    {
+      "id": "hfut-undergraduate",
+      "name": "合肥工业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hfut",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "hhu-undergraduate",
+      "name": "河海大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hhu",
+      "startUrl": "https://jwxt.hhu.edu.cn/jsxsd/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "hit-undergraduate",
+      "name": "哈尔滨工业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hit",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "hnu-undergraduate",
+      "name": "湖南大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hnu",
+      "startUrl": "https://hdjw.hnu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "hrbeu-undergraduate",
+      "name": "哈尔滨工程大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hrbeu",
+      "startUrl": "https://jwgl.hrbeu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xskcb.do"
+      }
+    },
+    {
+      "id": "hunnu-undergraduate",
+      "name": "湖南师范大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hunnu",
+      "startUrl": "https://jwglnew.hunnu.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action",
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "hust-undergraduate",
+      "name": "华中科技大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hust",
+      "startUrl": "https://hub.hust.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action",
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "hzau-undergraduate",
+      "name": "华中农业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "hzau",
+      "startUrl": "https://pdc.hzau.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "imu-undergraduate",
+      "name": "内蒙古大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "imu",
+      "startUrl": "https://jwxt.imu.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "jiangnan-undergraduate",
+      "name": "江南大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "J",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "jiangnan",
+      "startUrl": "https://jwglxt.jiangnan.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "jlu-undergraduate",
+      "name": "吉林大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "J",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "jlu",
+      "startUrl": "https://iedu.jlu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xskcb.do"
+      }
+    },
+    {
+      "id": "jnu-undergraduate",
+      "name": "暨南大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "J",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "jnu",
+      "startUrl": "https://jw.jnu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xsllsykb.do",
+        "scheduleWeekParam": "SKZC",
+        "weeksEncoding": "bitmap"
+      }
+    },
+    {
+      "id": "lnu-undergraduate",
+      "name": "辽宁大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "L",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "lnu",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+      }
+    },
+    {
+      "id": "lzu-undergraduate",
+      "name": "兰州大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "L",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "lzu",
+      "startUrl": "https://jwk.lzu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "muc-undergraduate",
+      "name": "中央民族大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "muc",
+      "startUrl": "https://jwxs.muc.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "nankai-undergraduate",
+      "name": "南开大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nankai",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "ncepu-baoding-undergraduate",
+      "name": "华北电力大学（保定） · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ncepu-baoding",
+      "startUrl": "https://jwxt.ncepu.edu.cn/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "ncepu-undergraduate",
+      "name": "华北电力大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ncepu",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "ncu-undergraduate",
+      "name": "南昌大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ncu",
+      "startUrl": "https://my.ncu.edu.cn/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "neau-undergraduate",
+      "name": "东北农业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "neau",
+      "startUrl": "https://webvpn.neau.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "nefu-undergraduate",
+      "name": "东北林业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nefu",
+      "startUrl": "https://jwcnew.webvpn.nefu.edu.cn/dblydx_jsxsd/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "nenu-undergraduate",
+      "name": "东北师范大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nenu",
+      "startUrl": "https://bkjx.nenu.edu.cn/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "neu-undergraduate",
+      "name": "东北大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "neu",
+      "startUrl": "https://jwxt.neu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xsllsykb.do",
+        "scheduleWeekParam": "SKZC",
+        "weeksEncoding": "bitmap"
+      }
+    },
+    {
+      "id": "njau-undergraduate",
+      "name": "南京农业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "njau",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "njnu-undergraduate",
+      "name": "南京师范大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "njnu",
+      "startUrl": "https://ehall.nnu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xsllsykb.do",
+        "scheduleWeekParam": "SKZC",
+        "weeksEncoding": "bitmap"
+      }
+    },
+    {
+      "id": "nju-undergraduate",
+      "name": "南京大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nju",
+      "startUrl": "https://jw.nju.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "njust-undergraduate",
+      "name": "南京理工大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "njust",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "nuaa-undergraduate",
+      "name": "南京航空航天大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nuaa",
+      "startUrl": "https://aao-eas.nuaa.edu.cn/eams/login.action",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+      }
+    },
+    {
+      "id": "nudt-undergraduate",
+      "name": "国防科技大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "G",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nudt",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "nwafu-undergraduate",
+      "name": "西北农林科技大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nwafu",
+      "startUrl": "https://newehall.nwafu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xskcb.do"
+      }
+    },
+    {
+      "id": "nwpu-undergraduate",
+      "name": "西北工业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nwpu",
+      "startUrl": "https://ecampus.nwpu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "nwu-undergraduate",
+      "name": "西北大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nwu",
+      "startUrl": "https://jwgl.nwu.edu.cn/jwglxt",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "nxu-undergraduate",
+      "name": "宁夏大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "N",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "nxu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "ouc-undergraduate",
+      "name": "中国海洋大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ouc",
+      "startUrl": "https://id.ouc.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "pku-undergraduate",
+      "name": "北京大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "pku",
+      "startUrl": "https://elective.pku.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "qhu-undergraduate",
+      "name": "青海大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Q",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "qhu",
+      "startUrl": "https://mh.qhu.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "ruc-undergraduate",
+      "name": "中国人民大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ruc",
+      "startUrl": "https://jw.ruc.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "scnu-undergraduate",
+      "name": "华南师范大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "scnu",
+      "startUrl": "https://jwxt.scnu.edu.cn/xtgl/login_slogin.html",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "scu-undergraduate",
+      "name": "四川大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "scu",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action",
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "scut-undergraduate",
+      "name": "华南理工大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "scut",
+      "startUrl": "https://xsjw2018.jw.scut.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "sdu-undergraduate",
+      "name": "山东大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "sdu",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "seu-undergraduate",
+      "name": "东南大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "seu",
+      "startUrl": "https://ehall.seu.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+      }
+    },
+    {
+      "id": "shisu-undergraduate",
+      "name": "上海外国语大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "shisu",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action",
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "shu-undergraduate",
+      "name": "上海大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "shu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "shzu-undergraduate",
+      "name": "石河子大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "shzu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "sicau-undergraduate",
+      "name": "四川农业大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "sicau",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "sjtu-undergraduate",
+      "name": "上海交通大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "sjtu",
+      "startUrl": "https://i.sjtu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "smmu-undergraduate",
+      "name": "海军军医大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "H",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "smmu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "snnu-undergraduate",
+      "name": "陕西师范大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "snnu",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "suda-undergraduate",
+      "name": "苏州大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "suda",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "sufe-undergraduate",
+      "name": "上海财经大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "S",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "sufe",
+      "startUrl": "https://eams.sufe.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "swjtu-undergraduate",
+      "name": "西南交通大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "swjtu",
+      "startUrl": "https://yhxt.swjtu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "swu-undergraduate",
+      "name": "西南大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "swu",
+      "startUrl": "https://i.swu.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "swufe-undergraduate",
+      "name": "西南财经大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "swufe",
+      "startUrl": "https://ehall.swufe.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "sysu-undergraduate",
+      "name": "中山大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "sysu",
+      "startUrl": "https://jwxt.sysu.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "thu-undergraduate",
+      "name": "清华大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Q",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "thu",
+      "startUrl": "https://zhjw.cic.tsinghua.edu.cn/",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action",
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "tju-undergraduate",
+      "name": "天津大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "T",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "tju",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+      }
+    },
+    {
+      "id": "tmu-undergraduate",
+      "name": "天津医科大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "T",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "tmu",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "tongji-undergraduate",
+      "name": "同济大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "T",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "tongji",
+      "startUrl": "https://1.tongji.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "tyut-undergraduate",
+      "name": "太原理工大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "T",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "tyut",
+      "family": "eams-urp",
+      "config": {
+        "scheduleAction": "/eams/courseTableForStd!courseTable.action"
+      }
+    },
+    {
+      "id": "uestc-undergraduate",
+      "name": "电子科技大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "uestc",
+      "startUrl": "https://eams.uestc.edu.cn/eams",
+      "family": "eams-urp",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "uibe-undergraduate",
+      "name": "对外经济贸易大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "D",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "uibe",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "upc-undergraduate",
+      "name": "中国石油大学（华东） · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "upc",
+      "startUrl": "https://webvpn.upc.edu.cn/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18,
+        "semesterYears": 3
+      }
+    },
+    {
+      "id": "ustb-undergraduate",
+      "name": "北京科技大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "B",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ustb",
+      "startUrl": "https://jwgl.ustb.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "ustc-undergraduate",
+      "name": "中国科学技术大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ustc",
+      "startUrl": "https://jw.ustc.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "utibet-undergraduate",
+      "name": "西藏大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "utibet",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xsllsykb.do",
+        "scheduleWeekParam": "SKZC",
+        "weeksEncoding": "bitmap"
+      }
+    },
+    {
+      "id": "whu-undergraduate",
+      "name": "武汉大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "W",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "whu",
+      "startUrl": "https://jwgl.whu.edu.cn/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 16
+      }
+    },
+    {
+      "id": "whut-undergraduate",
+      "name": "武汉理工大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "W",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "whut",
+      "startUrl": "https://jwxt.whut.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xskcb.do"
+      }
+    },
+    {
+      "id": "xidian-undergraduate",
+      "name": "西安电子科技大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "xidian",
+      "startUrl": "https://ehall.xidian.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xsllsykb.do",
+        "scheduleWeekParam": "SKZC",
+        "weeksEncoding": "bitmap"
+      }
+    },
+    {
+      "id": "xjtu-undergraduate",
+      "name": "西安交通大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "xjtu",
+      "startUrl": "https://ehall.xjtu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xskcb.do"
+      }
+    },
+    {
+      "id": "xju-undergraduate",
+      "name": "新疆大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "xju",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "xmu-undergraduate",
+      "name": "厦门大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "X",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "xmu",
+      "startUrl": "https://jw.xmu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xskcb.do"
+      }
+    },
+    {
+      "id": "ybu-undergraduate",
+      "name": "延边大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Y",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ybu",
+      "startUrl": "https://jwxt.ybu.edu.cn/jsxsd/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "ynu-undergraduate",
+      "name": "云南大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Y",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "ynu",
+      "startUrl": "https://ehall.ynu.edu.cn/",
+      "family": "jwapp",
+      "config": {
+        "scheduleAction": "/jwapp/sys/wdkb/modules/xskcb/xsllsykb.do",
+        "scheduleWeekParam": "SKZC",
+        "weeksEncoding": "bitmap"
+      }
+    },
+    {
+      "id": "zju-undergraduate",
+      "name": "浙江大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "zju",
+      "startUrl": "https://jwbinfosys.zju.edu.cn/",
+      "family": "zhengfang-v9",
+      "config": {
+        "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+        "scheduleQuery": "",
+        "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+        "sectionTimesQuery": "",
+        "sectionTimeFields": {
+          "period": "jcmc"
+        }
+      }
+    },
+    {
+      "id": "zuel-undergraduate",
+      "name": "中南财经政法大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "zuel",
+      "startUrl": "https://ioa.zuel.edu.cn/",
+      "family": "qiangzhi-jsxsd",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    },
+    {
+      "id": "zzu-undergraduate",
+      "name": "郑州大学 · 本科教务（占位）",
+      "group": "UNDERGRADUATE",
+      "initial": "Z",
+      "assembly": "family",
+      "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+      "maintainer": "暂无",
+      "schoolId": "zzu",
+      "startUrl": "https://jwxt.zzu.edu.cn/",
+      "family": "generic-table",
+      "config": {
+        "assumedTotalWeeks": 18
+      }
+    }
+  ]
+}

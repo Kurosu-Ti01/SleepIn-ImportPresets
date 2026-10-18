@@ -1,0 +1,17 @@
+{
+  "name": "中央财经大学 · 本科教务（占位）",
+  "schoolId": "cufe",
+  "group": "UNDERGRADUATE",
+  "initial": "Z",
+  "startUrl": "https://xuanke.cufe.edu.cn/jwglxt/xtgl/login_slogin.html",
+  "family": "zhengfang-v9",
+  "config": {
+    "scheduleAction": "/jwglxt/kbcx/xskbcx_cxXsgrkb.html",
+    "scheduleQuery": "",
+    "sectionTimesAction": "/jwglxt/kbcx/xskbcx_cxRjc.html",
+    "sectionTimesQuery": "",
+    "sectionTimeFields": { "period": "jcmc" }
+  },
+  "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+  "maintainer": "暂无"
+}

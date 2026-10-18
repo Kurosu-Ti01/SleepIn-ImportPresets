@@ -1,0 +1,13 @@
+{
+  "name": "示例高校 · 本科教务（东软 EAMS）",
+  "schoolId": "example-university",
+  "group": "UNDERGRADUATE",
+  "initial": "S",
+  "startUrl": "https://jw.example.invalid/",
+  "family": "eams-urp",
+  "config": {
+    "assumedTotalWeeks": 18
+  },
+  "description": "示例：东软 EAMS / URP 课表接口。响应若是脚本形式（var activities = {…}），把 responseShape 改成 jsVariable。",
+  "maintainer": "your-github-id"
+}

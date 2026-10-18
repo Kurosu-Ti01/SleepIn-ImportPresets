@@ -1,0 +1,12 @@
+{
+  "name": "中国矿业大学（北京） · 本科教务（占位）",
+  "schoolId": "cumtb",
+  "group": "UNDERGRADUATE",
+  "initial": "Z",
+  "family": "generic-table",
+  "config": {
+    "assumedTotalWeeks": 16
+  },
+  "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+  "maintainer": "暂无"
+}

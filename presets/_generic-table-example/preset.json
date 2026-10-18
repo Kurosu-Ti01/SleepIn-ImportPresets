@@ -1,0 +1,10 @@
+{
+  "name": "通用抓取（当前课程的课表页）",
+  "group": "GENERAL",
+  "initial": "T",
+  "startUrl": null,
+  "family": "generic-table",
+  "config": {},
+  "description": "长尾兜底：不认学校，直接读当前页面上那张课表表格。布局不是「行是节次、列是星期」就用不了，属正常失败。",
+  "maintainer": "your-github-id"
+}

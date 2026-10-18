@@ -1,0 +1,13 @@
+{
+  "name": "示例高校 · 本科教务（强智 jsxsd）",
+  "schoolId": "example-university",
+  "group": "UNDERGRADUATE",
+  "initial": "S",
+  "startUrl": "https://jw.example.invalid/",
+  "family": "qiangzhi-jsxsd",
+  "config": {
+    "assumedTotalWeeks": 18
+  },
+  "description": "示例：强智 jsxsd 的课表页（HTML 表格）。选择器与标签文案都在取值里，模板不同的部署改取值即可。",
+  "maintainer": "your-github-id"
+}

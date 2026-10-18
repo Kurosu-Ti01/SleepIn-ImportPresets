@@ -1,0 +1,16 @@
+# OS / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 生成器与脚本的临时文件
+*.tmp
+*.bak
+
+# 开发时拼出来的测试脚本（tools/Build-TestScript.ps1）
+dist/
+
+
+# 其他
+.playwright-mcp

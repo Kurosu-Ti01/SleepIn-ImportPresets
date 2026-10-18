@@ -1,0 +1,35 @@
+{
+  "name": "示例族（虚构：JSON 接口 + 动态键行容器 + 可配周次编码）",
+  "apiVersion": 1,
+  "changePoints": {
+    "basePath": "/portal/api",
+    "semesterListAction": "semester/list",
+    "scheduleAction": "schedule/list",
+    "semesterMetaAction": "semester/config",
+    "sectionTimesAction": "section/times",
+    "semesterParam": "semester",
+    "rowContainer": { "path": "data.*.rows" },
+    "weeksEncoding": "auto",
+    "groupKeyOrder": ["classId", "courseCode", "name"],
+    "fields": {
+      "name": "courseName",
+      "teacher": "teacherName",
+      "day": "weekday",
+      "from": "startPeriod",
+      "to": "endPeriod",
+      "weeks": "weekMask",
+      "location": "roomName",
+      "classId": "classId",
+      "courseCode": "courseCode"
+    },
+    "semesterFields": {
+      "code": "code",
+      "label": "name"
+    },
+    "sectionTimeFields": {
+      "period": "period",
+      "start": "startTime",
+      "end": "endTime"
+    }
+  }
+}

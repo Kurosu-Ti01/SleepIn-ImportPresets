@@ -1,0 +1,25 @@
+{
+  "name": "示例高校 · 本科教务",
+  "schoolId": "example-university",
+  "group": "UNDERGRADUATE",
+  "initial": "S",
+  "startUrl": "https://portal.example.invalid/portal/",
+  "family": "example-portal",
+  "config": {
+    "scheduleAction": "schedule/my",
+    "weeksEncoding": "bitmap",
+    "fields": {
+      "name": "KCM",
+      "teacher": "SKJS",
+      "day": "SKXQ",
+      "from": "KSJC",
+      "to": "JSJC",
+      "weeks": "SKZC",
+      "location": "JASMC",
+      "classId": "JXBID",
+      "courseCode": "KCH"
+    }
+  },
+  "description": "示例：同一个族、只改取值。适用前提与已知限制写在这里。",
+  "maintainer": "your-github-id"
+}

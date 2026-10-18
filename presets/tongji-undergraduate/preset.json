@@ -1,0 +1,14 @@
+{
+  "name": "同济大学 · 本科教务（占位）",
+  "schoolId": "tongji",
+  "group": "UNDERGRADUATE",
+  "initial": "T",
+  "startUrl": "https://1.tongji.edu.cn/",
+  "family": "generic-table",
+  "config": {
+    "assumedTotalWeeks": 18,
+    "semesterYears": 3
+  },
+  "description": "占位条目：本条仅将学校登记进在册，尚未适配。信息检索自网上资料，或已过时。",
+  "maintainer": "暂无"
+}

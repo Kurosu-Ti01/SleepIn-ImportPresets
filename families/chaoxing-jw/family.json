@@ -1,0 +1,32 @@
+{
+  "name": "超星教务（页面参数 + JSON 接口）",
+  "apiVersion": 1,
+  "changePoints": {
+    "scheduleAction": "/admin/api/schedule/list",
+    "scheduleQuery": "",
+    "semesterParam": "xqdm",
+    "studentParam": "xh",
+    "campusParam": "xqid",
+    "semesterSelectSelectors": ["#xqdm", "select[name='xqdm']", "select#xqdm"],
+    "campusSelectSelectors": ["#xqid", "select[name='xqid']"],
+    "studentIdSelectors": ["#xh", "input[name='xh']", "#xhid"],
+    "semesterYears": 3,
+    "assumedTotalWeeks": 18,
+    "rowContainer": { "path": "data.list" },
+    "weeksEncoding": "text",
+    "groupKeyOrder": ["classId", "courseCode"],
+    "mergeAdjacentSections": true,
+    "fields": {
+      "name": "courseName",
+      "teacher": "teacherName",
+      "day": "weekDay",
+      "section": "sections",
+      "from": "startSection",
+      "to": "endSection",
+      "weeks": "weekSections",
+      "location": "roomName",
+      "classId": "classId",
+      "courseCode": "courseCode"
+    }
+  }
+}
